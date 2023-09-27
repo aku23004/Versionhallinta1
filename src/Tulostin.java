@@ -3,13 +3,13 @@ public class Tulostin {
     public static void main(String[] args) {
       
     	String tekija = "Aku";
-        int luku1 = 2;
-        int luku2 = 3;
+        double luku1 = 2;
+        double luku2 = 3;
     	
     	System.out.println("Hei olen Tulostin-ohjelma" + "\n" + "Ohjelman tekijä: " + tekija);
     	
-    	int tulo = luku1 * luku2;
+    	double tulo = luku1 * luku2;
     	
-    	System.out.println(tulo);
+    	System.out.println(luku1 + " * " + luku2 + " = " + tulo); // Tulon laskeminen
     }
 }
