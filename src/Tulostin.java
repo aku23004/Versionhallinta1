@@ -9,7 +9,13 @@ public class Tulostin {
     	System.out.println("Hei olen Tulostin-ohjelma" + "\n" + "Ohjelman tekijä: " + tekija);
     	
     	double tulo = luku1 * luku2;
-    	
     	System.out.println(luku1 + " * " + luku2 + " = " + tulo); // Tulon laskeminen
+    	
+    	double summa = luku1 + luku2;
+    	System.out.println(luku1 + " + " + luku2 + " = " + summa);
+    	
+    	double erotus = luku1 - luku2;
+    	System.out.println(luku1 + " - " + luku2 + " = " + erotus);
+    	
     }
 }
